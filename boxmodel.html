@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>box model</title>
+    <style>
+      html,
+      body {
+        background-color: green;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+      }
+      .box {
+        background-color: yellow;
+        height: 50%;
+        width: 50%;
+        padding: 20px 10px;
+      }
+      .inside-box {
+        background-color: blue;
+        height: 50%;
+        width: 50%;
+        padding: 0;
+        margin: 20px;
+        border-right: 5px dashed red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="inside-box"></div>
+    </div>
+  </body>
+</html>
