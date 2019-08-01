@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kokoa Tribe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 0;
+        margin: 0;
+        height: 1500px;
+        padding-top: 100px; /* box에만 하면 노란색이 안 올라감 */
+      }
+      nav {
+        background-color: #ff7879;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        top: 0px; /* padding-top해주고 nav 맨 위로 올라가게 하는 것 */
+        z-index: 1; /* 맨 앞에서 보이도록 해주는 것 */
+      }
+      .box {
+        display: inline-block;
+        height: 100%;
+      }
+      .BlueBox {
+        width: 70%;
+        background-color: #7ed6df;
+        vertical-align: top; /* 위쪽 공백 안 생기게 하는 것 */
+        margin-right: -4px; /* 옆에 공백 없애주는 것 */
+      }
+      .BlueBox h1 {
+        color: white;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .YellowBox {
+        background-color: #ffcb02;
+        width: 29%;
+        border: 5px solid grey;
+        position: relative; /* 부모일 때 relative 사용 */
+      }
+      .GreenBox {
+        width: 100px;
+        height: 50px;
+        position: absolute; /* 자식일 때 absoulute 사용 */
+        left: -50px;
+        top: -30px;
+        background-color: green;
+        z-index: 1; /* 두번째로 보이게 해주는 것 */
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav></nav>
+    <div class="box BlueBox">
+      <h1>This is the one day</h1>
+    </div>
+    <div class="box YellowBox">
+      <div class="GreenBox"></div>
+    </div>
+  </body>
+</html>
