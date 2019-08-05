@@ -20,23 +20,24 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        animation: 0.7s effect1 infinite ease-in-out;
+        animation: 1s effect1 infinite ease-in-out;
       }
       .circle {
         width: 8px;
         height: 8px;
         background-color: white;
-        border-radius: 100px;
-      }
-      .firstcc {
+        border-radius: 4px;
       }
 
       @keyframes effect1 {
-        from {
+        0% {
           transform: none;
         }
-        to {
-          transform: rotate(180deg);
+        50% {
+          transform: rotate(0.5turn);
+        }
+        100% {
+          transform: rotate(0.5turn);
         }
       }
 
