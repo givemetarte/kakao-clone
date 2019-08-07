@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Instagram Feed</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="feed__photo photo">
+      <header class="photo__header">
+        <i class="fas fa-arrow-left"></i>
+        <div class="photo__header-column">
+          <img src="images/avatar1.jpeg" class="photo__avatar" width="30px" />
+          <span class="photo__author">Emma Watson</span>
+          <span class="photo__timestamp">5 min</span>
+        </div>
+        <i class="fas fa-ellipsis-h"></i>
+      </header>
+      <img src="images/nowimage.jpg" class="photo__image" width="90px" />
+      <div class="photo__meta">
+        <div class="photo__meta-column">
+          <span class="photo__metric">
+            <i class="fas fa-heart"></i>
+            2,215
+          </span>
+          <span class="photo__metric">
+            <i class="fas fa-comment"></i>
+            350
+          </span>
+        </div>
+        <i class="fas fa-share-alt"></i>
+      </div>
+    </div>
+    <ul class="comments">
+      <li class="comments__comment comment">
+        <img src="images/avatar1.jpeg" class="comment__avatar" width="30px" />
+        <div class="comment__column">
+          <span class="comment__author">Angel</span>
+          <span class="comment__comment">Look so good!</span>
+          <span class="comment__actions">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-share-alt"></i>
+          </span>
+        </div>
+      </li>
+    </ul>
+    <div class="write">
+      <div class="write__wrapper">
+        <img src="images/avatar1.jpeg" class="write__avatar" width="30px" />
+        <input
+          type="text"
+          class="write__input"
+          placeholder="add a comment..."
+        />
+        <span class="write__submit">
+          <i class="fas fa-paper-plane"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

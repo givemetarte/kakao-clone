@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Instagram Feed</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <i class="fab fa-instagram"></i>
+      <div class="header__icons">
+        <span class="header__icon">
+          <i class="fas fa-tv"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-comments"></i>
+        </span>
+      </div>
+    </header>
+    <ul class="stories">
+      <li class="stories__story">
+        <img src="images/avatar1.jpeg" class="stories__story" width="50px" />
+      </li>
+      <li class="stories__story">
+        <img src="images/avatar1.jpeg" class="stories__story" width="50px" />
+      </li>
+      <li class="stories__story">
+        <img src="images/avatar1.jpeg" class="stories__story" width="50px" />
+      </li>
+      <li class="stories__story">
+        <img src="images/avatar1.jpeg" class="stories__story" width="50px" />
+      </li>
+      <li class="stories__story">
+        <img src="images/avatar1.jpeg" class="stories__story" width="50px" />
+      </li>
+    </ul>
+    <main class="feed">
+      <div class="feed__photo photo">
+        <header class="photo__header">
+          <div class="photo__header-column">
+            <img src="images/avatar1.jpeg" class="photo__avatar" width="30px" />
+            <span class="photo__author">Emma Watson</span>
+            <span class="photo__timestamp">5 min</span>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </header>
+        <img src="images/nowimage.jpg" class="photo__image" width="90px" />
+        <div class="photo__meta">
+          <div class="photo__meta-column">
+            <span class="photo__metric">
+              <i class="fas fa-heart"></i>
+              2,215
+            </span>
+            <span class="photo__metric">
+              <i class="fas fa-comment"></i>
+              350
+            </span>
+          </div>
+          <i class="fas fa-share-alt"></i>
+        </div>
+      </div>
+    </main>
+    <div class="tab-bar">
+      <span class="tab-bar__tab">
+        <i class="fab fa-apple"></i>
+      </span>
+      <span class="tab-bar__tab">
+        <i class="fas fa-search"></i>
+      </span>
+      <span class="tab-bar__tab tab--main">
+        <i class="fas fa-plus-square"></i>
+      </span>
+      <span class="tab-bar__tab">
+        <i class="fas fa-heart"></i>
+      </span>
+      <span class="tab-bar__tab">
+        <i class="fas fa-user"></i>
+      </span>
+    </div>
+  </body>
+</html>
