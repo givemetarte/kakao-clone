@@ -15,10 +15,73 @@
         }
 
         body {
-            margin: 0;
+            margin: 30px;
             padding: 0;
             background-color: #2C3E4F;
-            margin-bottom: 50px;
+        }
+
+        .user {
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .user__bg {
+            height: 150px;
+            width: 100%;
+        }
+
+        .user__header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .user__avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid white;
+            position: relative;
+            top: -30px;
+        }
+
+        .user__name {
+            font-size: 14px;
+            margin-top: -20px;
+            margin-bottom: 5px;
+        }
+
+        .user__position {
+            font-size: 13px;
+            font-weight: 400;
+            opacity: 0.6;
+        }
+
+        .user__buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 30px;
+            padding-bottom: 20px;
+        }
+
+        .user__button {
+            text-decoration: none;
+            color: white;
+            background-color: rgba(106, 117, 255, 1);
+            width: 115px;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .user__button:last-child {
+            color: rgba(106, 117, 255, 1);
+            background-color: rgba(106, 117, 255, 0.3);
         }
     </style>
 
@@ -27,7 +90,9 @@
 <body>
 
     <div class="user">
-        <div class="user__bg"></div>
+
+        <img src="images/background.png" class="user__bg">
+
         <header class="user__header">
             <img src="images/avatar1.png" class="user__avatar">
             <h1 class="user__name">Nicolas Serrano</h1>
