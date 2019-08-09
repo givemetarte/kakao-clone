@@ -1,0 +1,151 @@
+@import "reset.css";
+
+body {
+  height: 100%;
+  background-color: #88b14b;
+}
+
+.airpods {
+  background-color: white;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  width: 337px;
+  height: 370px;
+  border-radius: 2%;
+}
+
+.airpods__image-box {
+  text-align: center;
+}
+
+.airpods__name {
+  font-size: 18.5px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.airpods__explanations {
+  margin-bottom: 15px;
+}
+
+.airpods__explanation {
+  font-size: 15px;
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.airpods__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.airpods__price {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.airpods__point {
+  margin-left: 6px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.airpods__stars {
+  color: #ffcd31;
+  font-size: 14px;
+}
+
+.airpods__stars i:nth-child(5) {
+  color: black;
+  opacity: 0.15;
+}
+
+.profile {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.profile__box {
+  border-radius: 50%;
+}
+
+.profile__background {
+  position: relative;
+}
+
+.profile-box2 {
+  position: absolute;
+  top: -200px;
+}
+
+.profile__background img {
+  width: 378px;
+  border-radius: 2%;
+}
+
+.profile__avatar-box img {
+  border-radius: 50%;
+  width: 20%;
+  border: 3px solid white;
+}
+
+.profile__avatar-box {
+  position: absolute;
+  top: -50px;
+}
+
+.profile__profile-box {
+  position: relative;
+  background-color: white;
+  text-align: center;
+  width: 378px;
+  padding-top: 54px;
+  border-radius: 0 0 2% 2%;
+}
+
+.profile__author {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.profile__job {
+  opacity: 0.5;
+  margin-bottom: 19px;
+}
+
+.profile__buttons {
+  padding-bottom: 34px;
+}
+
+.profile__follow {
+  width: 140px;
+  height: 45px;
+  background-color: #4152ab;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 450;
+  display: inline-block;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.profile__message {
+  width: 140px;
+  height: 45px;
+  background-color: #c9d5e5;
+  border-radius: 5px;
+  color: #4152ab;
+  font-size: 14px;
+  font-weight: 450;
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 45px;
+  cursor: pointer;
+}
