@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
+    <title>checkbox review</title>
+    <style>
+        .check-it-out {
+            all: unset;
+        }
+
+        .check-it-out:before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f111";
+        }
+
+        .check-it-out:checked:before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f057";
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" id="checkbox" class="check-it-out">
+    <label for="checkbox">check it out! </label>
+</body>
+
+</html>
