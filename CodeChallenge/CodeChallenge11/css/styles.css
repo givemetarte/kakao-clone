@@ -24,8 +24,8 @@ body {
   padding: 0 30px;
   background-image: linear-gradient(
       to bottom,
-      rgb(241, 242, 246, 0) 30%,
-      #f1f2f6 70%
+      rgba(100, 131, 255, 0.2),
+      #f1f2f6 50%
     ),
     url("background.jpeg");
   background-size: contain;
