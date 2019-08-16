@@ -8,8 +8,11 @@
 body {
   font-family: "Oswald", sans-serif;
   text-transform: capitalize;
-  margin: 50px;
   font-size: 14px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .phone {
@@ -75,22 +78,42 @@ body {
 }
 
 .header__contents .header__content:nth-child(1) {
-  background-image: url("../images/image1.jpeg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) 70%,
+      rgba(97, 97, 97, 0.5)
+    ),
+    url("../images/image1.jpeg");
   background-size: cover;
 }
 
 .header__contents .header__content:nth-child(2) {
-  background-image: url("../images/image2.jpeg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) 70%,
+      rgba(97, 97, 97, 0.5)
+    ),
+    url("../images/image2.jpeg");
   background-size: cover;
 }
 
 .header__contents .header__content:nth-child(3) {
-  background-image: url("../images/image3.jpeg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) 70%,
+      rgba(97, 97, 97, 0.5)
+    ),
+    url("../images/image3.jpeg");
   background-size: cover;
 }
 
 .header__contents .header__content:nth-child(4) {
-  background-image: url("../images/image4.jpeg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) 70%,
+      rgba(97, 97, 97, 0.5)
+    ),
+    url("../images/image4.jpeg");
   background-size: cover;
 }
 
@@ -114,7 +137,13 @@ body {
   cursor: pointer;
 }
 
-.recipes .recipes__column span {
+.recipes .recipes__subtitle h4 {
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.recipes .recipes__subtitle span {
   opacity: 0.6;
 }
 
