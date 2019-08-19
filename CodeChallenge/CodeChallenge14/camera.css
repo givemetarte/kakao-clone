@@ -1,0 +1,133 @@
+.section1 {
+  margin-bottom: 50px;
+}
+
+.camera-box-container {
+  width: 350px;
+  height: 250px;
+  background-color: #283949;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.camera-box-container:hover {
+  background-color: #283949;
+  transform: translate(10px, 10px);
+  opacity: 1;
+}
+
+.camera-box-container span:first-child {
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+  display: block;
+}
+
+.camera-box-container span:nth-child(2) {
+  color: #ea4463;
+  font-size: 15px;
+  display: block;
+}
+
+.button {
+  color: white;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background-color: #ea4463;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.box {
+  width: 350px;
+  height: 250px;
+  background-color: #069b92;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: 100px;
+}
+
+.camera-box {
+  width: 100px;
+  height: 100px;
+  background-color: #c6e6e0;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.7) 23%,
+    transparent 23%,
+    transparent 28%,
+    rgba(255, 255, 255, 0.7) 28%,
+    rgba(255, 255, 255, 0.7) 38%,
+    transparent 38%
+  );
+  overflow: hidden;
+}
+
+.red-dot {
+  position: absolute;
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: 15px;
+  top: 15px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)
+  );
+}
+
+.lense-container {
+  width: 60px;
+  height: 60px;
+  background-color: #5bc4bd;
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  border-radius: 50%;
+  border: 8px solid white;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.lense {
+  width: 100%;
+  height: 100%;
+  background-color: #1f6c6a;
+  border-radius: 50%;
+  border: 5px solid #0ba095;
+}
+
+.white-dot {
+  position: absolute;
+  top: 12px;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.lense-shadow {
+  background-color: #216d6b;
+  width: 64px;
+  height: 60px;
+  position: absolute;
+  bottom: -3px;
+  right: -5px;
+  transform: rotate(45deg);
+}

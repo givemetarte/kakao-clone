@@ -1,0 +1,15 @@
+@import "camera.css";
+@import "game.css";
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px;
+}
