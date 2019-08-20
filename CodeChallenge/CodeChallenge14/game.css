@@ -1,3 +1,7 @@
+.section2 {
+  margin-bottom: 50px;
+}
+
 .game-box-bg {
   width: 350px;
   height: 250px;
@@ -18,7 +22,7 @@
   height: 100px;
   background-color: #f0efef;
   border-radius: 20px;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.4s ease-in-out;
   position: relative;
   overflow: hidden;
 }
@@ -106,12 +110,18 @@
   position: absolute;
   bottom: 0;
   opacity: 0;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .game-box-bg:hover > .game-subtitle {
-  opacity: 1;
   height: 40%;
+  opacity: 1;
+}
+
+.game-box-bg:hover > .game-subtitle span:nth-child(1),
+.game-box-bg:hover > .game-subtitle span:nth-child(2),
+.game-box-bg:hover > .game-subtitle span:nth-child(3) {
+  opacity: 1;
 }
 
 .game-box-bg .game-subtitle span:nth-child(1) {
@@ -119,12 +129,14 @@
   color: white;
   font-weight: 600;
   font-size: 17px;
+  opacity: 0;
 }
 
 .game-box-bg .game-subtitle span:nth-child(2) {
   color: #ea4463;
   font-size: 15px;
   display: block;
+  opacity: 0;
 }
 
 .game-box-bg .game-subtitle span:nth-child(3) {
@@ -135,4 +147,5 @@
   margin-top: 20px;
   font-size: 15px;
   margin-left: 230px;
+  opacity: 0;
 }

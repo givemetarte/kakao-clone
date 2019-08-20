@@ -1,5 +1,6 @@
 @import "camera.css";
 @import "game.css";
+@import "compass.css";
 
 html,
 body {
@@ -11,5 +12,6 @@ body {
 }
 
 body {
-  margin: 100px;
+  margin-top: 100px;
+  margin-left: 300px;
 }
