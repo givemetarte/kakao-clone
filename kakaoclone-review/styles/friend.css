@@ -1,0 +1,39 @@
+.friend__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+}
+
+.g-avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.m-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.friend__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.friend__content .friend__info {
+  font-size: 12px;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+
+.friend__preview {
+  font-size: 14px;
+  margin-top: 8px;
+  opacity: 0.6;
+}
+
+.friend__timestamp {
+  font-size: 12px;
+  opacity: 0.6;
+}
