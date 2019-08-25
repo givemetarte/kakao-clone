@@ -14,3 +14,8 @@
   font-size: 20px;
   margin-left: 20px;
 }
+
+.header__column .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}
