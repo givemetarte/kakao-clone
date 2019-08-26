@@ -1,0 +1,73 @@
+.chats {
+  padding: 0 20px;
+}
+
+.chat {
+  background-image: url("../images/lilypads.png");
+  min-height: 100vh;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+
+.chat .chat__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__content .chat__timestamp {
+  text-transform: uppercase;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.incoming-message {
+  padding-top: 20px;
+  align-self: flex-start;
+}
+
+.incoming-message .message {
+  display: flex;
+  align-items: center;
+}
+
+.incoming-message .message__avatar {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.incoming-message .message__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.message__column .message__user {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.message__column .message__content {
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.incoming-message .message__content {
+  background-image: linear-gradient(to right, #fd746c, #ff9068);
+  border-radius: 0px 20px 20px 20px;
+  color: white;
+}
+
+.sent-message {
+  padding-top: 20px;
+  align-self: flex-end;
+}
+
+.sent-message .message__content {
+  background-image: linear-gradient(to right, #403a3e, #be5869);
+  border-radius: 20px 20px 0px 20px;
+  color: white;
+}

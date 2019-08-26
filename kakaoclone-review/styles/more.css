@@ -1,3 +1,7 @@
+.more {
+  padding: 0 20px;
+}
+
 .more .more__icons {
   display: flex;
   align-items: center;

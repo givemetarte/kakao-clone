@@ -1,3 +1,7 @@
+.settings {
+  padding: 0 20px;
+}
+
 .settings .settings__list {
   border-top: 1px solid #f5f5f5;
   display: flex;
