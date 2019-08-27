@@ -1,14 +1,11 @@
 .status-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
   background-color: white;
+  padding-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .status-bar .status-bar__clock {

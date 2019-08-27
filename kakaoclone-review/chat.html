@@ -11,83 +11,91 @@
 </head>
 
 <body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+    <div class="chat-body">
+        <div class="chat-fixed-box">
+            <div class="status-bar">
+                <div class="status-bar__column">
+                    <span class="status-bar__clock">13:53</span>
+                </div>
+                <div class="status-bar__column">
+                    <i class="far fa-clock"></i>
+                    <i class="fas fa-volume-mute"></i>
+                    <i class="fas fa-wifi"></i>
+                    <span class="status-bar__battery">100%</span>
+                    <i class="fas fa-battery-full"></i>
+                </div>
+            </div>
+            <header class="header">
+                <div class="header__column">
+                    <a href="index.html" class="header__back-btn">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <span class="header__title">Best Friend</span>
+                </div>
+                <div class="header__column">
+                    <a href="#" class="header__icon">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#" class="header__icon">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </header>
         </div>
-        <div class="status-bar__column">
-            <i class="far fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery">100%</span>
-            <i class="fas fa-battery-full"></i>
-        </div>
+
+        <main class="chat">
+            <div class="chat__content">
+                <span class="chat__timestamp">friday, january 11, 2019</span>
+                <ul class="incoming-message">
+                    <li class="incoming-message__message message">
+                        <img src="images/avatar1.jpeg" class="message__avatar friend__avatar">
+                        <div class="message__column">
+                            <span class="message__user">Best Friend</span>
+                            <span class="message__content">Congrats, I love you!</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="sent-message">
+                    <li class="sent-message__message message">
+                        <div class="message__column">
+                            <span class="message__content">Thanx, see you soon!</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="incoming-message">
+                    <li class="incoming-message__message message">
+                        <img src="images/avatar1.jpeg" class="message__avatar friend__avatar">
+                        <div class="message__column">
+                            <span class="message__user">Best Friend</span>
+                            <span class="message__content">Congrats, I love you!</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="sent-message">
+                    <li class="sent-message__message message">
+                        <div class="message__column">
+                            <span class="message__content">Thanx, see you soon!</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <nav class="chat__nav">
+            <div class="chat__wrapper">
+                <input type="text" placeholder="Send message" class="chat__write">
+                <div class="chat__left-icon chat__icon">
+                    <i class="far fa-plus-square"></i>
+                </div>
+                <div class="chat__right-icon chat__icon">
+                    <i class="far fa-smile-wink"></i>
+                    <i class="fas fa-microphone"></i>
+                </div>
+            </div>
+        </nav>
     </div>
-    <header class="header">
-        <div class="header__column">
-            <a href="index.html" class="header__back-btn">
-                <i class="fas fa-arrow-left"></i>
-            </a>
-            <span class="header__title">Best Friend</span>
-        </div>
-        <div class="header__column">
-            <a href="#" class="header__icon">
-                <i class="fas fa-search"></i>
-            </a>
-            <a href="#" class="header__icon">
-                <i class="fas fa-bars"></i>
-            </a>
-        </div>
-    </header>
-    <main class="chat">
-        <div class="chat__content">
-            <span class="chat__timestamp">friday, january 11, 2019</span>
-            <ul class="incoming-message">
-                <li class="incoming-message__message message">
-                    <img src="images/avatar1.jpeg" class="message__avatar friend__avatar">
-                    <div class="message__column">
-                        <span class="message__user">Best Friend</span>
-                        <span class="message__content">Congrats, I love you!</span>
-                    </div>
-                </li>
-            </ul>
-            <ul class="sent-message">
-                <li class="sent-message__message message">
-                    <div class="message__column">
-                        <span class="message__content">Thanx, see you soon!</span>
-                    </div>
-                </li>
-            </ul>
-            <ul class="incoming-message">
-                <li class="incoming-message__message message">
-                    <img src="images/avatar1.jpeg" class="message__avatar friend__avatar">
-                    <div class="message__column">
-                        <span class="message__user">Best Friend</span>
-                        <span class="message__content">Congrats, I love you!</span>
-                    </div>
-                </li>
-            </ul>
-            <ul class="sent-message">
-                <li class="sent-message__message message">
-                    <div class="message__column">
-                        <span class="message__content">Thanx, see you soon!</span>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </main>
-    <nav class="chat__nav">
-        <div class="chat_wrapper">
-            <input type="text" placeholder="Send message" class="chat__write">
-            <div class="chat__left-icon chat__icon">
-                <i class="far fa-plus-square"></i>
-            </div>
-            <div class="chat__right-icon chat__icon">
-                <i class="far fa-smile-wink"></i>
-                <i class="fas fa-microphone"></i>
-            </div>
-        </div>
-    </nav>
+    <div class="screen">
+        <div>please make your screen small!🥺</div>
+    </div>
 </body>
 
 </html>
